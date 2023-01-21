@@ -1,0 +1,208 @@
+{
+  "name": "Icons",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "91a6293d0fa4567d40f4822ad59c7f3a",
+      "css": "car_side",
+      "code": 62948,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "30366bcf4d25ffe039a4d4304ab24f38",
+      "css": "car_crash",
+      "code": 62945,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "f838f7c5c601d089a1bf48ecb97427d1",
+      "css": "car_alt",
+      "code": 62942,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "7fde84f9b0dff3b64d7ba983adac872c",
+      "css": "car",
+      "code": 61881,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "9f46658437e1b7f4015dd9b453b385a7",
+      "css": "blur_circular",
+      "code": 59392,
+      "src": "material"
+    },
+    {
+      "uid": "ad65fa7f0f35e80fe1f1a5afadbc561f",
+      "css": "accessibility",
+      "code": 59393,
+      "src": "material"
+    },
+    {
+      "uid": "2b1bcd8b15d35599f6828e4f5eadfa30",
+      "css": "access_alarms",
+      "code": 59394,
+      "src": "material"
+    },
+    {
+      "uid": "290ee7567aa7d0810364a9c3f1d2bc58",
+      "css": "assistant_photo",
+      "code": 59395,
+      "src": "material"
+    },
+    {
+      "uid": "217851518691636a6919833b02c9e87b",
+      "css": "assignment_turned_in",
+      "code": 59396,
+      "src": "material"
+    },
+    {
+      "uid": "44e035628ee60455a84023969f7a43e1",
+      "css": "cloud",
+      "code": 59397,
+      "src": "material"
+    },
+    {
+      "uid": "f8b500333c665b93ad0902bb45e5b7df",
+      "css": "brightness_high",
+      "code": 59398,
+      "src": "material"
+    },
+    {
+      "uid": "254190823b8afa58da4b5fc89a755fc4",
+      "css": "av_timer",
+      "code": 59399,
+      "src": "material"
+    },
+    {
+      "uid": "e5fe7fbdd4d8e94ce27958e909ae9e8c",
+      "css": "airport_shuttle",
+      "code": 59400,
+      "src": "material"
+    },
+    {
+      "uid": "786de3c6b0f58447980e98de968554e6",
+      "css": "router",
+      "code": 59401,
+      "src": "material"
+    },
+    {
+      "uid": "5164d4d14c71c2340bd9b3096fbf96ce",
+      "css": "vpn_key",
+      "code": 59402,
+      "src": "material"
+    },
+    {
+      "uid": "43789fe377eae980188120ce20467d12",
+      "css": "wallpaper",
+      "code": 59403,
+      "src": "material"
+    },
+    {
+      "uid": "db1d5199f54b1f1dea3a70f4f3ce768b",
+      "css": "warning",
+      "code": 59404,
+      "src": "material"
+    },
+    {
+      "uid": "9d77dd3f8a8a12cae9c1c35d65fb8c2a",
+      "css": "vibration",
+      "code": 59405,
+      "src": "material"
+    },
+    {
+      "uid": "aece56f5aaf6c8aa83e7713969cfedcb",
+      "css": "verified_user",
+      "code": 59406,
+      "src": "material"
+    },
+    {
+      "uid": "1da34778aa980e667d6f2543f699e8e3",
+      "css": "system_update_alt",
+      "code": 59407,
+      "src": "material"
+    },
+    {
+      "uid": "5d3c2da76982e789d5d569e4e801abb7",
+      "css": "settings_input_svideo",
+      "code": 59408,
+      "src": "material"
+    },
+    {
+      "uid": "6e24a21823179fc6623dea6e9b9d0398",
+      "css": "settings_overscan",
+      "code": 59409,
+      "src": "material"
+    },
+    {
+      "uid": "22109bddae809ffd3ecf72f6d8616c8c",
+      "css": "settings_applications",
+      "code": 59410,
+      "src": "material"
+    },
+    {
+      "uid": "b2270284ed38dffa576900a69b320faa",
+      "css": "settings",
+      "code": 59411,
+      "src": "material"
+    },
+    {
+      "uid": "034a7ce834f0c4c6834eda64a42a496f",
+      "css": "satellite",
+      "code": 59412,
+      "src": "material"
+    },
+    {
+      "uid": "d96244b8d8e38cee2957add6bd457a33",
+      "css": "receipt",
+      "code": 59413,
+      "src": "material"
+    },
+    {
+      "uid": "52bb3f6efb0e9ce9269d5d53e38aabf3",
+      "css": "present_to_all",
+      "code": 59414,
+      "src": "material"
+    },
+    {
+      "uid": "62099b50f6289364ba074a876810ed67",
+      "css": "panorama_wide_angle",
+      "code": 59415,
+      "src": "material"
+    },
+    {
+      "uid": "d51e3cb95a6814d6f5e45ecf0db8e16c",
+      "css": "panorama_fish_eye",
+      "code": 59416,
+      "src": "material"
+    },
+    {
+      "uid": "0b49246f1dfbab281b1e47b25b77413f",
+      "css": "pan_tool",
+      "code": 59417,
+      "src": "material"
+    },
+    {
+      "uid": "6bba8ae79d342eb294e8cfa5b83be49c",
+      "css": "pages",
+      "code": 59418,
+      "src": "material"
+    },
+    {
+      "uid": "8d5e8806779585f76a9a35e9f4f615db",
+      "css": "open_with",
+      "code": 59419,
+      "src": "material"
+    },
+    {
+      "uid": "060ed9f176cc6eb23011a8c90d5a996b",
+      "css": "looks",
+      "code": 59420,
+      "src": "material"
+    }
+  ]
+}

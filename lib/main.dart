@@ -1,0 +1,93 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:appointment/ui/agents/index.dart';
+import 'package:appointment/ui/home/index.dart';
+// import 'package:appointment/ui/widgets/top_rounded_navigation_bar.dart';
+import 'package:appointment/utils/colors.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+void main() {
+  runApp(MaterialApp(
+      title: 'Appointment Demo', theme: ThemeData(), home: const AppointmentApp()));
+}
+
+class AppointmentApp extends StatelessWidget {
+  const AppointmentApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
+    });
+    return Theme(
+      data: ThemeData(
+        scaffoldBackgroundColor: Colors.grey[50],
+        primaryColor: MdAppColors.kBlue,
+        primaryColorLight: MdAppColors.kLightBlue,
+        primaryColorDark: MdAppColors.kDarkBlue,
+        textTheme: GoogleFonts.poppinsTextTheme(),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          secondary: Colors.pinkAccent,
+        ),
+      ),
+      child: _MainPage(),
+    );
+  }
+}
+
+class _MainPage extends StatefulWidget {
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<_MainPage> {
+  int indexPage = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: OverflowBox(
+        alignment: Alignment.topCenter,
+        maxHeight: MediaQuery.of(context).size.height,
+        child: AnimatedSwitcher(
+          duration: kThemeAnimationDuration,
+          child: const [
+            MedicalHomePage(),
+            DoctorsPage(),
+            Scaffold(body: Center(child: Text('History'))),
+            Scaffold(body: Center(child: Text('Urgency'))),
+          ][indexPage],
+        ),
+      ),
+      // bottomNavigationBar: TopRoundedNavigationBar(
+      //   currentIndex: indexPage,
+      //   onTap: (value) => setState(() {
+      //     indexPage = value;
+      //   }),
+      //   items: const [
+      //     TopRoundedNavigationBarItem(
+      //       label: 'Home',
+      //       selectedIcon: Icons.home_rounded,
+      //     ),
+      //     TopRoundedNavigationBarItem(
+      //       label: 'Doctors',
+      //       selectedIcon: FontAwesome.user_md,
+      //       color: Color(0xFF06F884),
+      //     ),
+      //     TopRoundedNavigationBarItem(
+      //       label: 'History',
+      //       selectedIcon: Icons.history,
+      //       color: Colors.purpleAccent,
+      //     ),
+      //     TopRoundedNavigationBarItem(
+      //       label: 'Urgency',
+      //       selectedIcon: Icons.notifications,
+      //       color: Colors.redAccent,
+      //     ),
+      //   ],
+      // ),
+    );
+  }
+}
